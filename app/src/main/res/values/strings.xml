@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">NIT3213FinalApp_s8138209</string>
+
+    <!-- Location dropdown options -->
+    <string-array name="location_array">
+        <item>Sydney</item>
+        <item>Footscray</item>
+        <item>ORT</item>
+    </string-array>
 </resources>
