@@ -27,7 +27,10 @@
         </activity>
 
         <!-- ✅ Dashboard screen -->
-        <activity android:name=".MainActivity" />
+        <activity android:name=".DashboardActivity" />
+
+        <!-- ✅ Detail screen (added now) -->
+        <activity android:name=".DetailActivity" />
 
     </application>
 
