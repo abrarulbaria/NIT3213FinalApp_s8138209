@@ -1,3 +1,100 @@
+## 📑 Table of Contents
+- [Features]
+- User login with API authentication
+
+Location-based topic retrieval
+
+Dynamic topic listing with RecyclerView
+
+Detail view with flexible key-value display
+
+Logout and session reset
+
+- [Installation]
+- Clone the repository
+
+Open in Android Studio
+
+Connect a device or emulator
+
+Build and run
+
+
+- [Login Credentials]
+- Username	Password	Location
+abrarul	s8138209	sydney
+
+
+
+- [Requirements]
+- Android Studio Hedgehog or above
+
+Android SDK 26+
+
+Internet connection
+
+
+- [Technologies Used]
+- Kotlin
+
+RecyclerView
+
+REST API
+
+Material Design
+
+Intent-based navigation
+
+
+- [Project Structure]
+com.example.nit3213finalapp_s8138209
+├── LoginActivity.kt
+├── DashboardActivity.kt
+├── DetailActivity.kt
+├── TopicAdapter.kt
+├── TopicItem.kt
+└── res/layout/
+    ├── activity_login.xml
+    ├── activity_dashboard.xml
+    ├── activity_detail.xml
+    └── item_topic.xml
+
+- [API Reference]
+- POST /{location}/auth → Login
+
+GET /dashboard/{keypass} → Fetch topics
+
+
+- [Usage]
+- Open the app
+
+Enter credentials
+
+View dashboard topics
+
+Tap for more details
+
+Logout to return to login
+
+
+- [Limitations]
+- No persistent login sessions
+
+Network calls done on the main thread
+
+No error screens for invalid input
+
+
+
+
+
+
+
+
+
+
+
+
 # NIT3213 Final App – s8138209
 
 This Android app was developed for the NIT3213 unit using Kotlin and follows clean architecture principles. It allows users to log in using their first name and student ID, and then displays topic data based on their assigned keypass from a remote API.
